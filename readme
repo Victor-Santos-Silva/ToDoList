@@ -1,8 +1,12 @@
 Criei uma API com um To Do List simples com Express, Postgress e Prisma.
 
 Comando para iniciar o projeto prisma:
- - npx prisma migrate dev --name init
- - npx prisma generate
+ npm install @prisma/client
+ npm install prisma --save-dev
+ npx prisma init
+ npx prisma migrate dev --name init
+ npx prisma generate
+ npm install prisma --save-dev
 
 
 Para iniciar o servidor:
